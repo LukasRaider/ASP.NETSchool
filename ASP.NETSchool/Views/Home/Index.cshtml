@@ -1,0 +1,10 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Welcome!</h1>
+<div>
+    @Model
+</div>
+<a class="btn btn-info" asp-controller="Account" asp-action="Logout">Log out</a>
